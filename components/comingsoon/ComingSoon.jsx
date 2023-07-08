@@ -28,7 +28,7 @@ export default function ComingSoon() {
                 id="email"
                 className="w-72 p-2 bg-gray-200 focus:outline-none focus:ring-0 focus:border-cyan-700 rounded-tl rounded-bl text-sm"
                 placeholder="Email"
-                autocomplete="off"
+                autoComplete="off"
               />
               <button className="bg-blue-600 hover:bg-blue-700 py-[7px] px-6 text-gray-100 border border-blue-600 rounded-tr rounded-br text-sm">
                 Subscribe
