@@ -26,7 +26,7 @@ export default function ComingSoon() {
                 type="email"
                 name="email"
                 id="email"
-                className="w-72 p-2 bg-gray-200 focus:outline-none focus:ring-0 focus:border-cyan-700 rounded-tl rounded-bl text-sm"
+                className="w-44 md:w-72 lg:md-72 p-2 bg-gray-200 focus:outline-none focus:ring-0 focus:border-cyan-700 rounded-tl rounded-bl text-sm"
                 placeholder="Email"
                 autoComplete="off"
               />
