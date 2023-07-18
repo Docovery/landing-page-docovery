@@ -1,9 +1,11 @@
 import RootLayout from "./layout";
+import Navbar from "@/components/navbar/Navbar";
 
 export default function Home() {
+
   return (
       <RootLayout>
-        <h1>Home</h1>
+        <Navbar />
       </RootLayout>
   );
 }
