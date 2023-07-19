@@ -129,8 +129,8 @@ blockquote {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* BUTTON */
-.custom-btn {
+
+.hero-text .custom-btn {
   background: transparent;
   border: 2px solid var(--dark-color);
   border-radius: var(--border-radius-large);
@@ -139,18 +139,26 @@ blockquote {
   font-family: var(--title-font-family);
   font-size: var(--p-font-size);
   white-space: nowrap;
+  -webkit-border-radius: var(--border-radius-large);
+  -moz-border-radius: var(--border-radius-large);
+  -ms-border-radius: var(--border-radius-large);
+  -o-border-radius: var(--border-radius-large);
 }
 
-.custom-btn.btn-bg {
+.hero-text .custom-btn.btn-bg {
   background: var(--white-color);
   color: var(--primary-color);
   border-color: transparent;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease !important;
+  -webkit-transition: all 0.3s ease !important;
+  -moz-transition: all 0.3s ease !important;
+  -ms-transition: all 0.3s ease !important;
+  -o-transition: all 0.3s ease !important;
 }
 
-.custom-btn:hover,
-.custom-btn:focus {
-  background: var(--dark-color);
+.hero-text .custom-btn:hover,
+.hero-text .custom-btn:focus {
+  background: var(--secondary-color);
   color: var(--white-color);
   border-color: transparent;
 }

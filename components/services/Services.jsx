@@ -8,42 +8,107 @@ export default function Services() {
           <h2 className="mb-4 text-center" data-aos="fade-up">
             Nos <strong>services</strong>
           </h2>
-          <div className="container d-flex mt-5">
-            <div className="card">
-              <div className="header">
-                <i className="bi bi-database"></i>
-              </div>
-              <div className="body w-25">
-                Lorem ipsum dolor sit amet consectetur adipisicing consectetur
-                adipisicing
-              </div>
-            </div>
-            <div className="card">
-              <div className="header">
-                <i className="bi bi-person-workspace"></i>
-              </div>
-              <div className="body w-25">
-                Lorem ipsum dolor sit amet consectetur adipisicing consectetur
-                adipisicing
+          <div className="container mt-5">
+            <div className="row">
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div className="box-part text-center">
+                <i className="bi bi-person" aria-hidden="true"></i>
+
+                <div className="title">
+                  <h4>Accompagnement</h4>
+                </div>
+
+                <div className="text">
+                  <span>
+                    Nous vous acconpagnons dans la clarification de votre idée pour mieux aprehender le coeur de votre projet.
+                  </span>
+                </div>
               </div>
             </div>
-            <div className="card">
-              <div className="header">
-                <i className="bi bi-code"></i>
-              </div>
-              <div className="body w-25">
-                Lorem ipsum dolor sit amet consectetur adipisicing consectetur
-                adipisicing
+
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div className="box-part text-center">
+                <i className="bi bi-pencil" aria-hidden="true"></i>
+
+                <div className="title">
+                  <h4>Conception</h4>
+                </div>
+
+                <div className="text">
+                  <span>
+                    Une bonne façons de construire son projet est de la representer. Docovery {"s'assure"} de mieux conceptualisé votre projet.
+                  </span>
+                </div>
               </div>
             </div>
-            <div className="card">
-              <div className="header">
-                <i className="bi bi-cloud-upload"></i>
+
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div className="box-part text-center">
+                <i className="bi bi-code" aria-hidden="true"></i>
+
+                <div className="title">
+                  <h4>Dévéloppement</h4>
+                </div>
+
+                <div className="text">
+                  <span>
+                    Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.
+                    Assum decore te sed. Elitr scripta ocurreret qui ad.
+                  </span>
+                </div>
               </div>
-              <div className="body w-25">
-                Lorem ipsum dolor sit amet consectetur adipisicing consectetur
-                adipisicing
+            </div>
+
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div className="box-part text-center">
+                <i className="bi bi-house" aria-hidden="true"></i>
+
+                <div className="title">
+                  <h4>Service après vente</h4>
+                </div>
+
+                <div className="text">
+                  <span>
+                    Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.
+                    Assum decore te sed. Elitr scripta ocurreret qui ad.
+                  </span>
+                </div>
               </div>
+            </div>
+
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div className="box-part text-center">
+                <i className="bi bi-tools" aria-hidden="true"></i>
+
+                <div className="title">
+                  <h4>Maintenance</h4>
+                </div>
+
+                <div className="text">
+                  <span>
+                    Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.
+                    Assum decore te sed. Elitr scripta ocurreret qui ad.
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div className="box-part text-center">
+                <i className="bi bi-book" aria-hidden="true"></i>
+
+                <div className="title">
+                  <h4>Formation</h4>
+                </div>
+
+                <div className="text">
+                  <span>
+                    Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.
+                    Assum decore te sed. Elitr scripta ocurreret qui ad.
+                  </span>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
         </div>
