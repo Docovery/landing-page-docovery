@@ -8,31 +8,24 @@ export default function HomePage() {
           <div className="col-lg-6 col-md-10 col-12 d-flex flex-column justify-content-center align-items-center">
             <div className="hero-text">
               <h1 className="text-white" data-aos="fade-up">
-                We are ready for your digital marketing
+                Nous créons la solution qui repond à vos besoins
               </h1>
 
               <a
-                href="contact.html"
+                href="#"
                 className="custom-btn btn-bg btn mt-3"
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
-                Let us discuss together!
+                Nous contacter
               </a>
 
-              <strong
-                className="d-block py-3 pl-5 text-white"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                <i className="fa fa-phone mr-2"></i> +99 080 070 4224
-              </strong>
             </div>
           </div>
 
           <div className="col-lg-6 col-12">
             <div className="hero-image" data-aos="fade-up" data-aos-delay="300">
-              <Image src="working-girl.png" alt="working girl" className="img-fluid" />
+              <Image src="/working-girl.png" alt="working girl" className="img-fluid" width={1060} height={885} />
             </div>
           </div>
         </div>
