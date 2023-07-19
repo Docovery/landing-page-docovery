@@ -4,6 +4,9 @@ import HomePage from "@/components/homepage/HomePage";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import About from "@/components/about/About";
+import Testimonials from "@/components/testimonials/Testimonials";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
 
@@ -15,6 +18,10 @@ export default function Home() {
       <RootLayout>
         <Navbar />
         <HomePage />
+        <About />
+
+        <Testimonials />
+        <Footer />
       </RootLayout>
   );
 }
