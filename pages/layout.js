@@ -10,6 +10,7 @@ export default function RootLayout({ children }) {
         <title>Docovery | Landing Page</title>
         <meta name="title" content="Docovery" />
         <meta name="description" content="Docovery landing page" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="docovery_logo.svg" />
       </Head>
       <div className={inter.className}>{children}</div>
