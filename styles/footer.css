@@ -5,6 +5,7 @@
 
 .site-footer a {
   color: var(--p-color);
+  text-decoration: none;
 }
 
 .site-footer h4 {
