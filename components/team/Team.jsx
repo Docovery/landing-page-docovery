@@ -6,7 +6,7 @@ export default function Team() {
     <div className="container cont-team">
       <div className="row team-items">
         <h2 className="mb-5 text-center" data-aos="fade-up">
-          Nos <strong>services</strong>
+          L'équipe <strong>Docovery</strong>
         </h2>
         <div className="col-lg-3 col-md-6 col-sm-6 mt-80">
           <div className="card bg-white  d-flex align-items-center justify-content-center ">
