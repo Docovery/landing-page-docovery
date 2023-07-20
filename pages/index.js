@@ -8,6 +8,7 @@ import About from "@/components/about/About";
 import Testimonials from "@/components/testimonials/Testimonials";
 import Footer from "@/components/footer/Footer";
 import Services from "@/components/services/Services";
+import Team from "@/components/team/Team";
 
 export default function Home() {
 
@@ -22,6 +23,7 @@ export default function Home() {
         <About />
         <Services />
         <Testimonials />
+        <Team />
         <Footer />
       </RootLayout>
   );

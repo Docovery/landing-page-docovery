@@ -6,6 +6,7 @@ import "./../styles/homepage.css"
 import "./../styles/footer.css"
 import "./../styles/about.css"
 import "./../styles/services.css"
+import "./../styles/team.css"
 
 export default function MyApp({ Component, pageProps }) {
   return (
