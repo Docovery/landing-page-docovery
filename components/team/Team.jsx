@@ -3,12 +3,21 @@ import Image from "next/image";
 
 export default function Team() {
   return (
-    <div className="container">
-      <div className="row">
+    <div className="container cont-team">
+      <div className="row team-items">
+        <h2 className="mb-5 text-center" data-aos="fade-up">
+          Nos <strong>services</strong>
+        </h2>
         <div className="col-lg-3 col-md-6 col-sm-6 mt-80">
           <div className="card bg-white  d-flex align-items-center justify-content-center ">
             <div className="w-100">
-              <Image src="https://images.pexels.com/photos/7467850/pexels-photo-7467850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" width={500} height={500} className="rounded-circle"/>
+              <Image
+                src="https://images.pexels.com/photos/7467850/pexels-photo-7467850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt=""
+                width={500}
+                height={500}
+                className="rounded-circle"
+              />
             </div>
             <div className="text-center ">
               <p className="name">Jason Smith</p>
@@ -37,7 +46,13 @@ export default function Team() {
         <div className="col-lg-3 col-md-6 col-sm-6 mt-80">
           <div className="card bg-white  d-flex align-items-center justify-content-center">
             <div className="w-100">
-              <Image src="https://images.pexels.com/photos/7467850/pexels-photo-7467850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" width={500} height={500} className="rounded-circle"/>
+              <Image
+                src="https://images.pexels.com/photos/7467850/pexels-photo-7467850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt=""
+                width={500}
+                height={500}
+                className="rounded-circle"
+              />
             </div>
             <div className="text-center ">
               <p className="name">Jason Smith</p>
@@ -66,7 +81,13 @@ export default function Team() {
         <div className="col-lg-3 col-md-6 col-sm-6 mt-80">
           <div className="card bg-white  d-flex align-items-center justify-content-center">
             <div className="w-100">
-              <Image src="https://images.pexels.com/photos/7467850/pexels-photo-7467850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" width={500} height={500} className="rounded-circle"/>
+              <Image
+                src="https://images.pexels.com/photos/7467850/pexels-photo-7467850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt=""
+                width={500}
+                height={500}
+                className="rounded-circle"
+              />
             </div>
             <div className="text-center ">
               <p className="name">Jason Smith</p>
@@ -95,7 +116,13 @@ export default function Team() {
         <div className="col-lg-3 col-md-6 col-sm-6 mt-80">
           <div className="card bg-white  d-flex align-items-center justify-content-center">
             <div className="w-100">
-              <Image src="https://images.pexels.com/photos/7467850/pexels-photo-7467850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" width={500} height={500} className="rounded-circle"/>
+              <Image
+                src="https://images.pexels.com/photos/7467850/pexels-photo-7467850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt=""
+                width={500}
+                height={500}
+                className="rounded-circle"
+              />
             </div>
             <div className="text-center ">
               <p className="name">Jason Smith</p>

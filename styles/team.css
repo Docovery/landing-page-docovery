@@ -1,4 +1,4 @@
-img {
+.team-items img {
   height: 150px;
   width: 150px;
   border: 8px solid #eee;
@@ -8,24 +8,24 @@ img {
   transform: translate(-50%, -50%);
 }
 
-.card {
+.team-items .card {
   position: relative;
   width: 100%;
   border-radius: 5px;
   border: none;
 }
-.name {
+.team-items .name {
   font-size: 20px;
   margin-bottom: 6px;
   padding-top: 90px;
 }
-.job {
+.team-items .job {
   color: #fa2525;
   font-size: 12px;
   font-weight: 700;
   margin-bottom: 8px;
 }
-.container .card .icons .icon {
+.team-items .card .icons .icon {
   font-size: 14px;
   width: 30px;
   height: 30px;
@@ -37,28 +37,28 @@ img {
   align-items: center;
   cursor: pointer;
 }
-.dis {
+.team-items .dis {
   color: #7e7c7c;
   line-height: 2;
 }
 
-.container .card:hover .icons .icon {
+.team-items .card:hover .icons .icon {
   background-color: #f06d6d;
 }
-.container .card:hover .text-center {
+.team-items .card:hover .text-center {
   background-color: #fa2525;
   color: white;
 }
-.container .card:hover .job,
-.container .card:hover .name {
+.team-items .card:hover .job,
+.team-items .card:hover .name {
   color: white;
 }
-.container .card:hover .dis {
+.team-items .card:hover .dis {
   color: #c4c4c4;
 }
-.container .card .icons .icon:hover {
+.team-items .card .icons .icon:hover {
   background-color: rgb(235, 123, 103);
 }
-.mt-80 {
+.cont-team .mt-80 {
   margin-top: 80px;
 }
