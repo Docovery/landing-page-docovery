@@ -8,7 +8,7 @@ export default function Services() {
           <h2 className="mb-4 text-center" data-aos="fade-up">
             Nos <strong>services</strong>
           </h2>
-          <div className="container mt-5">
+          <div className="container mt-5" data-aos="fade-up">
             <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               <div className="box-part text-center">
