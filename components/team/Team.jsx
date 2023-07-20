@@ -3,13 +3,13 @@ import Image from "next/image";
 
 export default function Team() {
   return (
-    <div className="container cont-team">
-      <div className="row team-items">
+    <div className="container cont-team mb-5">
+      <div className="row justify-content-center team-items">
         <h2 className="mb-5 text-center" data-aos="fade-up">
           {"L'équipe"} <strong>Docovery</strong>
         </h2>
         <div className="col-lg-3 col-md-6 col-sm-6 mt-80">
-          <div className="card bg-white  d-flex align-items-center justify-content-center ">
+          <div className="card bg-white d-flex align-items-center justify-content-center ">
             <div className="w-100">
               <Image
                 src="/avatar.jpg"

@@ -27,38 +27,38 @@
 }
 .team-items .card .icons .icon {
   font-size: 14px;
+  margin-top: 10px;
   width: 30px;
   height: 30px;
-  color: white;
-  background-color: var(--secondary-color);
+  color: var(--secondary-color);
   border-radius: 50%;
+  border: 1px solid var(--secondary-color);
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
 .team-items .dis {
-  color: #7e7c7c;
+  color: #c4c4c4;
   line-height: 2;
 }
 
-.team-items .card:hover .icons .icon {
-  background-color: #f06d6d;
-}
-.team-items .card:hover .text-center {
+.team-items .card .text-center {
   background-color: var(--primary-color);
   color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
-.team-items .card:hover .job,
-.team-items .card:hover .name {
+.team-items .card .job,
+.team-items .card .name {
   color: white;
 }
-.team-items .card:hover .dis {
-  color: #c4c4c4;
-}
-.team-items .card .icons .icon:hover {
-  background-color: rgb(235, 123, 103);
-}
+
+
+
 .cont-team .mt-80 {
   margin-top: 80px;
 }
