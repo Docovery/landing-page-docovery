@@ -24,7 +24,7 @@ export default function Navbar() {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <a href="#" className="nav-link smoothScroll">
-                Acceuil
+                Accueil
               </a>
             </li>
             <li className="nav-item">
