@@ -3,104 +3,137 @@ import Image from "next/image";
 
 export default function Team() {
   return (
-    <div className="team-boxed">
-      <div className="container">
-        <div className="intro">
-          <h2 className="text-center">Team </h2>
-          <p className="text-center">
-            Nunc luctus in metus eget fringilla. Aliquam sed justo ligula.
-            Vestibulum nibh erat, pellentesque ut laoreet vitae.
-          </p>
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-3 col-md-6 col-sm-6 mt-80">
+          <div className="card bg-white  d-flex align-items-center justify-content-center ">
+            <div className="w-100">
+              <img
+                src="https://images.pexels.com/photos/7467850/pexels-photo-7467850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt=""
+                className="rounded-circle"
+              />
+            </div>
+            <div className="text-center ">
+              <p className="name">Jason Smith</p>
+              <p className="job">ENGINE MECHANIC</p>
+              <ul className="d-flex align-items-center justify-content-center list-unstyled icons">
+                <li className="icon ">
+                  <span className="fab fa-twitter"></span>
+                </li>
+                <li className="icon mx-2">
+                  <span className="fab fa-facebook"></span>
+                </li>
+                <li className="icon me-2">
+                  <span className="fab fa-google-plus"></span>
+                </li>
+                <li className="icon ">
+                  <span className="fab fa-instagram"></span>
+                </li>
+              </ul>
+              <p className="dis pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur.
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="row people">
-          <div className="col-md-6 col-lg-4 item">
-            <div className="box">
-              <Image
+        <div className="col-lg-3 col-md-6 col-sm-6 mt-80">
+          <div className="card bg-white  d-flex align-items-center justify-content-center">
+            <div className="w-100">
+              <img
+                src="https://images.pexels.com/photos/7467850/pexels-photo-7467850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt=""
                 className="rounded-circle"
-                src="/avatar.jpg"
-                alt="avatar"
-                width={1080}
-                height={1080}
               />
-              <h3 className="name">Ben Johnson</h3>
-              <p className="title">Musician</p>
-              <p className="description">
-                Aenean tortor est, vulputate quis leo in, vehicula rhoncus
-                lacus. Praesent aliquam in tellus eu gravida. Aliquam varius
-                finibus est, et interdum justo suscipit id. Etiam dictum feugiat
-                tellus, a semper massa.{" "}
+            </div>
+            <div className="text-center ">
+              <p className="name">Jason Smith</p>
+              <p className="job">ENGINE MECHANIC</p>
+              <ul className="d-flex align-items-center justify-content-center list-unstyled icons">
+                <li className="icon ">
+                  <span className="fab fa-twitter"></span>
+                </li>
+                <li className="icon mx-2">
+                  <span className="fab fa-facebook"></span>
+                </li>
+                <li className="icon me-2">
+                  <span className="fab fa-google-plus"></span>
+                </li>
+                <li className="icon ">
+                  <span className="fab fa-instagram"></span>
+                </li>
+              </ul>
+              <p className="dis pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur.
               </p>
-              <div className="social">
-                <a href="#">
-                  <i className="bi bi-facebook-official"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-twitter"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-instagram"></i>
-                </a>
-              </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4 item">
-            <div className="box">
-              <Image
+        </div>
+        <div className="col-lg-3 col-md-6 col-sm-6 mt-80">
+          <div className="card bg-white  d-flex align-items-center justify-content-center">
+            <div className="w-100">
+              <img
+                src="https://images.pexels.com/photos/7467850/pexels-photo-7467850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt=""
                 className="rounded-circle"
-                src="/avatar.jpg"
-                alt="avatar"
-                width={1080}
-                height={1080}
               />
-              <h3 className="name">Emily Clark</h3>
-              <p className="title">Artist</p>
-              <p className="description">
-                Aenean tortor est, vulputate quis leo in, vehicula rhoncus
-                lacus. Praesent aliquam in tellus eu gravida. Aliquam varius
-                finibus est, et interdum justo suscipit id. Etiam dictum feugiat
-                tellus, a semper massa.{" "}
+            </div>
+            <div className="text-center ">
+              <p className="name">Jason Smith</p>
+              <p className="job">ENGINE MECHANIC</p>
+              <ul className="d-flex align-items-center justify-content-center list-unstyled icons">
+                <li className="icon ">
+                  <span className="fab fa-twitter"></span>
+                </li>
+                <li className="icon mx-2">
+                  <span className="fab fa-facebook"></span>
+                </li>
+                <li className="icon me-2">
+                  <span className="fab fa-google-plus"></span>
+                </li>
+                <li className="icon ">
+                  <span className="fab fa-instagram"></span>
+                </li>
+              </ul>
+              <p className="dis pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur.
               </p>
-              <div className="social">
-                <a href="#">
-                  <i className="bi bi-facebook-official"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-twitter"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-instagram"></i>
-                </a>
-              </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4 item">
-            <div className="box">
-              <Image
+        </div>
+        <div className="col-lg-3 col-md-6 col-sm-6 mt-80">
+          <div className="card bg-white  d-flex align-items-center justify-content-center">
+            <div className="w-100">
+              <img
+                src="https://images.pexels.com/photos/7467850/pexels-photo-7467850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt=""
                 className="rounded-circle"
-                src="/avatar.jpg"
-                alt="avatar"
-                width={1080}
-                height={1080}
               />
-              <h3 className="name">Carl Kent</h3>
-              <p className="title">Stylist</p>
-              <p className="description">
-                Aenean tortor est, vulputate quis leo in, vehicula rhoncus
-                lacus. Praesent aliquam in tellus eu gravida. Aliquam varius
-                finibus est, et interdum justo suscipit id. Etiam dictum feugiat
-                tellus, a semper massa.{" "}
+            </div>
+            <div className="text-center ">
+              <p className="name">Jason Smith</p>
+              <p className="job">ENGINE MECHANIC</p>
+              <ul className="d-flex align-items-center justify-content-center list-unstyled icons">
+                <li className="icon ">
+                  <span className="fab fa-twitter"></span>
+                </li>
+                <li className="icon mx-2">
+                  <span className="fab fa-facebook"></span>
+                </li>
+                <li className="icon me-2">
+                  <span className="fab fa-google-plus"></span>
+                </li>
+                <li className="icon ">
+                  <span className="fab fa-instagram"></span>
+                </li>
+              </ul>
+              <p className="dis pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur.
               </p>
-              <div className="social">
-                <a href="#">
-                  <i className="bi bi-facebook-official"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-twitter"></i>
-                </a>
-                <a href="#">
-                  <i className="bi bi-instagram"></i>
-                </a>
-              </div>
             </div>
           </div>
         </div>
