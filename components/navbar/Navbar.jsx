@@ -1,11 +1,12 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container">
         <a className="navbar-brand" href="#">
-          Docovery
+          <Image src="/docovery_white.png" alt="logo" className="w-25 h-25" width={100} height={100} priority={true} />
         </a>
 
         <button
