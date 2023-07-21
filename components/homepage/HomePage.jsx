@@ -14,8 +14,7 @@ export default function HomePage() {
               <a
                 href="mailto:docovery@outlook.com"
                 className="custom-btn btn-bg btn mt-3"
-                data-aos="fade-up"
-                data-aos-delay="100"
+
               >
                 Nous contacter
               </a>

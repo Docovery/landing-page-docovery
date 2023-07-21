@@ -20,7 +20,7 @@ export default function Services() {
 
                 <div className="text">
                   <span>
-                    Nous vous acconpagnons dans la clarification de votre idée pour mieux aprehender le coeur de votre projet.
+                  Nous vous accompagnons dans la clarification de votre idée pour mieux appréhender le cœur de votre projet.
                   </span>
                 </div>
               </div>
@@ -36,7 +36,7 @@ export default function Services() {
 
                 <div className="text">
                   <span>
-                    Une bonne façons de construire son projet est de la representer. Docovery {"s'assure"} de mieux conceptualisé votre projet.
+                    Représenter son projet est une méthode efficace pour sa construction. Docovery se charge de vous aider à mieux conceptualiser votre projet.
                   </span>
                 </div>
               </div>
@@ -52,8 +52,7 @@ export default function Services() {
 
                 <div className="text">
                   <span>
-                    Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.
-                    Assum decore te sed. Elitr scripta ocurreret qui ad.
+                    {"L'équipe talentueuse de Docovery crée des solutions sur mesure pour votre projet."}
                   </span>
                 </div>
               </div>
@@ -69,8 +68,7 @@ export default function Services() {
 
                 <div className="text">
                   <span>
-                    Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.
-                    Assum decore te sed. Elitr scripta ocurreret qui ad.
+                    Un support continu est assuré par le service après-vente dédié, résolvant rapidement toute question ou préoccupation.
                   </span>
                 </div>
               </div>
@@ -86,8 +84,7 @@ export default function Services() {
 
                 <div className="text">
                   <span>
-                    Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.
-                    Assum decore te sed. Elitr scripta ocurreret qui ad.
+                    Un service de maintenance proactif effectue des contrôles réguliers et applique les mises à jour nécessaires pour maintenir votre système en parfait état de fonctionnement.
                   </span>
                 </div>
               </div>
@@ -103,8 +100,7 @@ export default function Services() {
 
                 <div className="text">
                   <span>
-                    Lorem ipsum dolor sit amet, id quo eruditi eloquentiam.
-                    Assum decore te sed. Elitr scripta ocurreret qui ad.
+                  Des formations personnalisées adaptées à vos besoins spécifiques vous permettent de maîtriser pleinement vos outils technologiques.
                   </span>
                 </div>
               </div>
