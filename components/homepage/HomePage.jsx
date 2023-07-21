@@ -12,7 +12,7 @@ export default function HomePage() {
               </h1>
 
               <a
-                href="#"
+                href="mailto:docovery@outlook.com"
                 className="custom-btn btn-bg btn mt-3"
                 data-aos="fade-up"
                 data-aos-delay="100"

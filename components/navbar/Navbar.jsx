@@ -39,7 +39,7 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link contact">
+              <a href="mailto:docovery@outlook.com" className="nav-link contact">
                 Nous Contacter
               </a>
             </li>

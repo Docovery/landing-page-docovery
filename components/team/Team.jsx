@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import socialTeam from "@/utils/socialTeam";
 
 export default function Team() {
   return (
@@ -19,24 +20,26 @@ export default function Team() {
                 className="rounded-circle"
               />
             </div>
-            <div className="text-center ">
+            <div className="text-center p-4">
               <p className="name">David BANITONGWA</p>
               <p className="job">Software Engineer & Co-founder Docovery</p>
               <ul className="d-flex align-items-center justify-content-center list-unstyled icons">
                 <li className="icon">
-                  <span className="bi bi-twitter"></span>
+                  <a href={socialTeam.david.twitter}>
+                    <span className="bi bi-twitter"></span>
+                  </a>
                 </li>
                 <li className="icon mx-2">
-                  <span className="bi bi-facebook"></span>
+                  <a href={socialTeam.david.github}>
+                    <span className="bi bi-github"></span>
+                  </a>
                 </li>
                 <li className="icon ">
-                  <span className="bi bi-instagram"></span>
+                  <a href={socialTeam.david.linkedin}>
+                    <span className="bi bi-linkedin"></span>
+                  </a>
                 </li>
               </ul>
-              <p className="dis pb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur.
-              </p>
             </div>
           </div>
         </div>
@@ -44,31 +47,33 @@ export default function Team() {
           <div className="card bg-white  d-flex align-items-center justify-content-center">
             <div className="w-100">
               <Image
-                src="/avatar.jpg"
+                src="/omari.jpg"
                 alt=""
                 width={500}
                 height={500}
                 className="rounded-circle"
               />
             </div>
-            <div className="text-center ">
+            <div className="text-center p-4">
               <p className="name">Omari KAYUMBA</p>
               <p className="job">Software Engineer & Co-founder Docovery</p>
               <ul className="d-flex align-items-center justify-content-center list-unstyled icons">
                 <li className="icon">
-                  <span className="bi bi-twitter"></span>
+                  <a href={socialTeam.omari.twitter}>
+                    <span className="bi bi-twitter"></span>
+                  </a>
                 </li>
                 <li className="icon mx-2">
-                  <span className="bi bi-facebook"></span>
+                  <a href={socialTeam.omari.github}>
+                    <span className="bi bi-github"></span>
+                  </a>
                 </li>
                 <li className="icon ">
-                  <span className="bi bi-instagram"></span>
+                  <a href={socialTeam.omari.linkedin}>
+                    <span className="bi bi-linkedin"></span>
+                  </a>
                 </li>
               </ul>
-              <p className="dis pb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur.
-              </p>
             </div>
           </div>
         </div>
