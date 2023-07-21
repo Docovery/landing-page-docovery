@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <Image src="/docovery_white.png" alt="logo" className="w-25 h-25" width={100} height={100} priority={true} />
+          <Image src="/docovery_white.png" alt="logo" className="logo" width={100} height={100} />
         </a>
 
         <button

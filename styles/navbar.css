@@ -13,6 +13,12 @@
   width: 50%;
 }
 
+.navbar-brand .logo {
+  width: 38%;
+  height: 38%;
+  object-fit: cover;
+}
+
 .nav-link {
   color: var(--white-color);
   font-size: var(--menu-font-size);
