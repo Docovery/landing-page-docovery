@@ -33,7 +33,7 @@ export default function Navbar() {
           onClick={handleShow}
         >
           {
-            iconDisplay ? (<i class="bi bi-x-lg"></i>) : (<i class="bi bi-list"></i>)
+            iconDisplay ? (<i className="bi bi-x-lg"></i>) : (<i className="bi bi-list"></i>)
           }
         </button>
 
