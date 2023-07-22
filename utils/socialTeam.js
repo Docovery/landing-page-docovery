@@ -11,8 +11,8 @@ const socialTeam = {
     },
     "docovery": {
         "linkedin": "#",
-        "facebook": "#",
-        "instagram": "#"
+        "facebook": "https://www.facebook.com/docoverycompany/",
+        "instagram": "https://www.instagram.com/docovery/?igshid-MzRIODBiNWFIZA=%3D"
     }
 }
 
