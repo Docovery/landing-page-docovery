@@ -12,8 +12,6 @@ export default function RootLayout({ children }) {
         <meta name="description" content="Building solutions, Shaping the future" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="https://docovery.netlify.app/docovery_logo.svg" />
-        <link rel="icon" type="image/x-icon" href="https://docovery.netlify.app/docovery_logo.svg" />
-        <meta name="theme-color" content="#000000" />
         <link rel="apple-touch-icon" href="https://docovery.netlify.app/docovery_logo.svg" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://docovery.netlify.app" />
