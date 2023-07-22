@@ -16,3 +16,8 @@
   position: relative;
   top: 2em;
 }
+
+.hero-image img {
+  width: auto;
+  height: auto;
+}
