@@ -28,7 +28,7 @@ export default function Footer() {
             </p>
 
             <p>
-              <a href="#">
+              <a href="mailto:docovery@outlook.com">
                 <i className="bi bi-envelope-fill me-2 footer-icon"></i>
                 docovery@outlook.com
               </a>
