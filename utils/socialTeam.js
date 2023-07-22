@@ -1,8 +1,8 @@
 const socialTeam = {
     "omari": {
-        "linkedin": "",
-        "github": "",
-        "twitter": ""
+        "linkedin": "https://www.linkedin.com/in/omari-kayumba-2973a420b/",
+        "github": "https://github.com/Rimao416",
+        "twitter": "#"
     },
     "david": {
         "linkedin": "https://www.linkedin.com/in/david-banitongwa/",
