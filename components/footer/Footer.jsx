@@ -7,15 +7,13 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-lg-5 mx-lg-auto col-md-8 col-10">
-            <h1 className="text-white" data-aos="fade-up" data-aos-delay="100">
+            <h1 className="text-white">
               Building <strong>solutions</strong>, Shaping the <strong>future</strong>.
             </h1>
           </div>
 
           <div
             className="col-lg-3 col-md-6 col-12"
-            data-aos="fade-up"
-            data-aos-delay="200"
           >
             <h4 className="my-4">Nous contacter</h4>
 
@@ -39,8 +37,6 @@ export default function Footer() {
 
           <div
             className="col-lg-3 col-md-6 col-12"
-            data-aos="fade-up"
-            data-aos-delay="300"
           >
             <h4 className="my-4">Où sommes-nous ?</h4>
 
