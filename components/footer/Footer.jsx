@@ -1,4 +1,5 @@
 import React from "react";
+import socialTeam from "@/utils/socialTeam";
 
 export default function Footer() {
   return (
@@ -75,13 +76,13 @@ export default function Footer() {
           >
             <ul className="social-icon text-center">
               <li>
-                <a href="#" className="bi bi-instagram"></a>
+                <a href={socialTeam.docovery.instagram} className="bi bi-instagram"></a>
               </li>
               <li>
-                <a href="#" className="bi bi-facebook"></a>
+                <a href={socialTeam.docovery.facebook} className="bi bi-facebook"></a>
               </li>
               <li>
-                <a href="#" className="bi bi-linkedin"></a>
+                <a href={socialTeam.docovery.linkedin} className="bi bi-linkedin"></a>
               </li>
             </ul>
           </div>
