@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 export default function HomePage() {
   return (
-    <section className="hero hero-bg d-flex justify-content-center align-items-center">
+    <section className="hero hero-bg d-flex justify-content-center align-items-center" id="homepage">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 col-md-10 col-12 d-flex flex-column justify-content-center align-items-center">
@@ -12,7 +12,7 @@ export default function HomePage() {
               </h1>
 
               <a
-                href="mailto:docovery@outlook.com"
+                href="#footer"
                 className="custom-btn btn-bg btn mt-3"
 
               >

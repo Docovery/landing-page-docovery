@@ -3,7 +3,7 @@ import socialTeam from "@/utils/socialTeam";
 
 export default function Footer() {
   return (
-    <footer className="site-footer">
+    <footer className="site-footer" id="footer">
       <div className="container">
         <div className="row">
           <div className="col-lg-5 mx-lg-auto col-md-8 col-10">

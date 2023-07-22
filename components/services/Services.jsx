@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Services() {
   return (
-    <section className="about section-padding pb-0" id="about">
+    <section className="about section-padding pb-0" id="services">
       <div className="container">
         <div className="row">
           <h2 className="mb-4 text-center" data-aos="fade-up">

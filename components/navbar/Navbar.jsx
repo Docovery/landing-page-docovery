@@ -40,22 +40,22 @@ export default function Navbar() {
         <div ref={toggle} className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a href="#" className="nav-link smoothScroll">
+              <a href="#homepage" className="nav-link smoothScroll">
                 Accueil
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link smoothScroll">
+              <a href="#about" className="nav-link smoothScroll">
                 A propos
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">
+              <a href="#services" className="nav-link">
                 Nos Services
               </a>
             </li>
             <li className="nav-item">
-              <a href="mailto:docovery@outlook.com" className="nav-link contact">
+              <a href="#footer" className="nav-link contact">
                 Nous Contacter
               </a>
             </li>
