@@ -1,7 +1,20 @@
-import React from "react";
+import React, {useRef, useState} from "react";
 import Image from "next/image";
 
 export default function Navbar() {
+  const toggle = useRef()
+  const [iconDisplay, setIconDisplay] = useState(false)
+
+  const handleShow = () => {
+    toggle.current.classList.toggle("show")
+    if(toggle.current.classList.contains("show")) {
+      setIconDisplay(true)
+    } else {
+      setIconDisplay(false)
+    }
+  }
+
+
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container">
@@ -17,11 +30,14 @@ export default function Navbar() {
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onClick={handleShow}
         >
-          <span className="navbar-toggler-icon"></span>
+          {
+            iconDisplay ? (<i class="bi bi-x-lg"></i>) : (<i class="bi bi-list"></i>)
+          }
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div ref={toggle} className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <a href="#" className="nav-link smoothScroll">
