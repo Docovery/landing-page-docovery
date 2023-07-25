@@ -1,9 +1,19 @@
 import { Inter } from "next/font/google";
 import Head from "next/head";
-
+import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
+  const googleAnalytics = () => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'G-V0GVGGQ7NL');
+  }
+  
   return (
     <>
       <Head>
@@ -25,6 +35,13 @@ export default function RootLayout({ children }) {
         <meta property="twitter:image" content="https://docovery.netlify.app/docovery_logo.svg" />
       </Head>
       <div className={inter.className}>{children}</div>
+      <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-V0GVGGQ7NL"></Script>
+      <Script id="google-analytics" strategy="lazyOnload">
+        {`window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-V0GVGGQ7NL');`}
+      </Script>
     </>
   );
 }
