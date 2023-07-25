@@ -4,15 +4,13 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
-  const googleAnalytics = () => {
+  const googleUrl = "https://www.googletagmanager.com/gtag/js?id=" + process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS
+  const script = `
     window.dataLayer = window.dataLayer || [];
-    function gtag(){
-      dataLayer.push(arguments);
-    }
-
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-V0GVGGQ7NL');
-  }
+    gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+  `
   
   return (
     <>
@@ -35,12 +33,9 @@ export default function RootLayout({ children }) {
         <meta property="twitter:image" content="https://docovery.netlify.app/docovery_logo.svg" />
       </Head>
       <div className={inter.className}>{children}</div>
-      <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-V0GVGGQ7NL"></Script>
+      <Script strategy="lazyOnload" src={googleUrl}></Script>
       <Script id="google-analytics" strategy="lazyOnload">
-        {`window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-V0GVGGQ7NL');`}
+        {script}
       </Script>
     </>
   );
