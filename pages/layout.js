@@ -19,7 +19,8 @@ export default function RootLayout({ children }) {
         <meta name="title" content="Docovery" />
         <meta name="description" content="Building solutions, Shaping the future" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="keywords" content="Docovery, Building solutions, Shaping the future" />
+        <meta name="keywords" content="Docovery, Building, solutions, Shaping, future" />
+        <meta name="author" content="David BANITONGWA" />
         <link rel="icon" href="https://docovery.netlify.app/docovery_logo.svg" />
         <link rel="apple-touch-icon" href="https://docovery.netlify.app/docovery_logo.svg" />
         <meta property="og:type" content="website" />
