@@ -24,7 +24,7 @@ export default function HomePage() {
 
           <div className="col-lg-6 col-12">
             <div className="hero-image" data-aos="fade-up" data-aos-delay="300">
-              <Image src="/working-girl.png" alt="working girl" className="img-fluid" width={1060} height={885} priority={true} />
+              <Image src="/test.png" alt="working girl" className="img-fluid" width={1060} height={885} priority={true} />
             </div>
           </div>
         </div>
