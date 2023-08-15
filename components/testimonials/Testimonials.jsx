@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import avatar from '../../public/male-avatar.png'
 
 export default function Testimonials() {
 
@@ -11,7 +12,7 @@ export default function Testimonials() {
 
                     <div className="col-lg-6 col-md-5 col-12">
                         <div className="client-image" data-aos="fade-up">
-                          <Image src="/male-avatar.png" className="img-fluid w-75 h-75" alt="website" width={916} height={836} />
+                          <Image src={avatar} className="img-fluid w-75 h-75" alt="website" width={916} height={836} />
                         </div>
                     </div>
 
